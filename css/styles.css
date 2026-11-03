@@ -27,3 +27,25 @@ body{background-color:var(--paper);background-image:radial-gradient(#1c1c1c0c .7
 .site-footer{border-top:5px solid #a64232}.page-intro{background:#1c1c1c}.page-intro .eyebrow{color:#c7775e}
 .contact-form input,.contact-form select,.contact-form textarea{background:#f8f5ef;border-color:#99958e}.contact-form :focus-visible{outline-color:#a64232;border-color:#a64232}
 @media(min-width:650px){.product-card:nth-child(2){transform:translateY(38px) rotate(1deg)}.product-card:nth-child(3){transform:translateY(-12px) rotate(-.6deg)}}
+
+/* Graffiti-inspireret duftunivers med tydelige navne på produktbillederne. */
+:root{--black:#111217;--paper:#f5f1e8;--lime:#d7ff00;--concrete:#8f929b;--line:#353640}
+.announcement{background:#d7ff00;color:#111217;border:0;font-weight:900}
+.wordmark span,.main-nav a:hover,.main-nav .current,.header-actions a,.hero h1 span,.hero .eyebrow,.hero-kicker,.page-intro .eyebrow{color:#d7ff00}
+.main-nav a:hover,.main-nav .current{border-color:#d7ff00}
+.button{background:#d7ff00;border-color:#d7ff00;color:#111217;box-shadow:5px 5px 0 #ff4e9b}
+.button:hover{color:#111217;box-shadow:7px 7px 0 #ff4e9b}
+.hero-image:after{color:#d7ff00b8;text-shadow:4px 4px 0 #ff4e9b}
+.hero-sticker{background:#ff4e9b;color:#111217;clip-path:polygon(8% 0,92% 6%,100% 88%,87% 100%,2% 92%,0 14%);border-radius:0}
+.product-image{box-shadow:6px 6px 0 #d7ff00}
+.product-image-name{position:absolute;z-index:2;left:12px;bottom:14px;max-width:88%;padding:5px 10px 3px;background:#d7ff00;color:#111217;font:900 clamp(22px,4vw,38px)/.86 var(--display);letter-spacing:-.025em;transform:rotate(-4deg);text-shadow:2px 2px 0 #ff4e9b}
+.product-card:nth-child(2) .product-image-name{background:#ff4e9b;text-shadow:2px 2px 0 #d7ff00;transform:rotate(3deg)}
+.product-card:nth-child(3) .product-image-name{background:#111217;color:#f5f1e8;text-shadow:2px 2px 0 #ff4e9b;transform:rotate(-2deg)}
+.product-card:nth-child(4) .product-image-name{background:#ff4e9b;color:#111217;text-shadow:2px 2px 0 #d7ff00}
+.image-index{background:#d7ff00;color:#111217}
+.category-band{background:#ff4e9b;color:#111217}
+.category-band .eyebrow{color:#111217}
+.story-image{box-shadow:8px 8px 0 #d7ff00}
+.story-image:after{background:#d7ff00;color:#111217}
+.site-footer{border-color:#d7ff00}
+.contact-form :focus-visible{outline-color:#ff4e9b;border-color:#ff4e9b}
