@@ -49,3 +49,38 @@ body{background-color:var(--paper);background-image:radial-gradient(#1c1c1c0c .7
 .story-image:after{background:#d7ff00;color:#111217}
 .site-footer{border-color:#d7ff00}
 .contact-form :focus-visible{outline-color:#ff4e9b;border-color:#ff4e9b}
+
+/* Graffiti wall campaign layer — full photographic wall, never a tiled texture. */
+:root{--black:#171717;--paper:#f1ede4;--lime:#d62828;--concrete:#777;--line:#444;--spray-blue:#247ba0;--spray-orange:#f77f00;--spray-yellow:#f9c80e}
+body{background:#34302b url('https://commons.wikimedia.org/wiki/Special:FilePath/Graffiti_on_a_Brick_Wall.jpg') center top/cover fixed no-repeat;color:#171717}
+body:before{content:"";position:fixed;inset:0;z-index:-1;background:linear-gradient(#17171757,#17171768);pointer-events:none}
+.announcement{background:#f9c80e;color:#171717;border:0;font-weight:900}
+.site-header{background:#171717ed;border-bottom:5px solid #d62828}
+.wordmark{font-size:clamp(38px,5vw,58px);color:#f1ede4;text-shadow:2px 2px #d62828,-2px -1px #247ba0;transform:rotate(-3deg)}
+.wordmark span{color:#f9c80e;text-shadow:none}.main-nav a:hover,.main-nav .current{color:#f9c80e;border-color:#f77f00}
+.hero{background:linear-gradient(90deg,#171717eF 0%,#171717c9 54%,#17171725 100%),url('https://commons.wikimedia.org/wiki/Special:FilePath/Graffiti_on_a_Brick_Wall.jpg') center/cover;color:#f1ede4;min-height:670px;padding:0}
+.hero:before{inset:0;opacity:.36;background:linear-gradient(112deg,transparent 44%,#d6282845 45%,transparent 59%),linear-gradient(30deg,transparent 35%,#247ba044 36%,transparent 56%)}
+.hero-copy{padding:60px var(--gutter);background:#171717bd;max-width:720px;clip-path:polygon(0 2%,98% 0,100% 96%,2% 100%)}
+.hero h1{font-size:clamp(76px,13vw,154px);text-shadow:4px 4px #d62828,-2px -2px #247ba0;transform:rotate(-2deg)}
+.hero h1 span{color:#f9c80e}.hero-kicker{font:900 clamp(18px,3vw,28px) var(--display);color:#f77f00;transform:rotate(-2deg)}
+.hero-image{background-image:linear-gradient(#17171732,#17171732),url('https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=1400&q=90');filter:saturate(.82);min-height:420px}
+.hero-image:after{content:'ESSENCE';color:#f9c80e;text-shadow:4px 4px #d62828,-2px -2px #247ba0;font-style:italic}
+.hero-sticker{width:116px;height:92px;left:auto;right:15px;top:20px;background:#f9c80e;color:#171717;transform:rotate(9deg);font-size:18px;box-shadow:5px 6px 0 #d62828}
+.button{background:#f77f00;border-color:#171717;color:#171717;box-shadow:4px 5px 0 #f9c80e;transform:rotate(-1deg)}.button:hover{color:#171717;box-shadow:7px 8px 0 #247ba0}
+.section{background:#f1ede4f5;margin:24px 2.5vw;padding-left:var(--gutter);padding-right:var(--gutter);box-shadow:8px 10px 0 #1717178c;clip-path:polygon(0 1%,99.7% 0,100% 98%,.3% 100%)}
+.section-heading h2,.story h2,.page-intro h1{ text-shadow:2px 2px #f77f00}.section-heading h2 em,.story h2 em,.page-intro h1 em{color:#d62828}
+.product-grid{gap:34px 26px}.product-card{background:#f1ede4;padding:12px 12px 16px;box-shadow:5px 7px 0 #171717a8;clip-path:polygon(0 1%,99% 0,100% 98%,1% 100%)}
+.product-card:nth-child(odd){transform:rotate(-1.2deg)}.product-card:nth-child(even){transform:rotate(1.5deg)}
+.product-card:nth-child(2){background:#f1ede4}.product-image{box-shadow:none;aspect-ratio:.88;background:#777}.product-image:after{border:5px solid #f9c80e;clip-path:polygon(0 0,98% 2%,100% 100%,2% 98%)}
+.product-image img{filter:saturate(.88) contrast(1.06)}.image-index{top:10px;left:auto;right:9px;background:#d62828;color:white;transform:rotate(5deg);font-size:9px}
+.product-image-name{position:absolute;z-index:2;left:12px;bottom:12px;color:#f1ede4;background:#171717db;padding:8px 10px;font:900 23px/.85 var(--display);transform:rotate(-3deg);text-shadow:2px 2px #d62828}
+.product-meta h3{font-size:30px}.product-desc,.fine-print{color:#34302b}
+.category-band{margin:24px 2.5vw;background:#d62828;color:#f1ede4;clip-path:polygon(1% 0,100% 2%,99% 100%,0 97%)}.category-band:after{color:transparent;-webkit-text-stroke:2px #f1ede457}
+.story-image{box-shadow:9px 10px 0 #247ba0;transform:rotate(-1deg)}
+.page-intro{background:linear-gradient(90deg,#171717eF,#1717179e),url('https://commons.wikimedia.org/wiki/Special:FilePath/Graffiti_on_a_Brick_Wall.jpg') center/cover;padding:78px var(--gutter)}.page-intro .eyebrow{color:#f9c80e}
+.catalog{background:transparent;box-shadow:none;clip-path:none}.catalog .product-card{margin-bottom:10px}
+.contact-layout{background:transparent;box-shadow:none;clip-path:none}.contact-info,.contact-form{background:#f1ede4;padding:24px;box-shadow:7px 8px 0 #d62828;transform:rotate(-.6deg)}.contact-form{transform:rotate(.5deg)}
+.site-footer{background:#171717;color:#f1ede4;border-top:8px solid #f77f00}.footer-top .wordmark{display:inline-block}.footer-bottom{border-color:#f1ede466}
+@media(min-width:650px){.hero{grid-template-columns:1.05fr .95fr}.hero-copy{margin:42px 0 42px 3vw}.product-card:nth-child(2){transform:rotate(1.4deg) translateY(18px)}.product-card:nth-child(3){transform:rotate(-1deg) translateY(-8px)}}
+@media(min-width:1000px){.hero{min-height:760px}.hero-copy{padding:70px 3vw}.section{margin:34px 4vw}.catalog{margin:20px 0;background:transparent}.contact-layout{margin:24px 4vw}.product-grid{gap:42px 32px}}
+@media(max-width:649px){body{background-attachment:scroll}.hero{padding-top:20px}.hero-copy{margin:12px;padding:38px 7vw}.hero-image{min-height:370px}.section{margin:14px 3vw;padding-top:50px;padding-bottom:50px}}
